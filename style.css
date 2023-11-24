@@ -1,0 +1,238 @@
+	h1{
+			font-family: helvetica, arial, sans-serif;
+			font-size: 52px;
+			line-height: 30px;
+			color: #18386b;
+
+		}
+	h2{
+			font-family helvetica, arial, sans-serif;
+					}
+	h3{
+			font-family: helvetica, arial, sans-serif;
+		}
+
+	p{
+			font-family: helvetica, arial, sans-serif;
+			font-size: 18px;
+
+		}
+
+	hr{
+		width: 50%;
+		margin-top: 40px;
+		margin-bottom: 40px;
+		height: 2px;
+		background-color: black;
+	}
+
+	
+	body{
+			font-family: helvetica, arial, sans-serif;;
+			margin:auto; 
+			max-width: 80%;
+			padding: 30px;
+			color: BLACK;
+			box-sizing: border-box;
+			font-size: 18px;
+			background-image: url(https://images.unsplash.com/photo-1629654858857-615c2c8be8a8?q=80&w=2094&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
+		}
+
+	main{
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
+	a:link {
+	color:  #18386b;
+	}
+
+	a:visited {
+	  color: #18386b;
+	}
+
+	/* mouse over link */
+	a:hover {
+	  color: hotpink;
+	}
+
+	th,
+	td {
+		padding: 5px 30px;
+		border-top-width: 0;
+		border-left-width: 0;
+		text-align: center;
+	}
+
+	.img{
+	margin-right: 20px;
+	margin-left: 20px;
+
+
+	}
+	.nombre{
+		margin-top: 30px;
+		width: 60%;
+		gap: 50px;
+		}
+
+	.cv-item{
+		display: flex;
+		width: 100%;
+		flex-wrap: wrap;
+		gap: 20px;
+		justify-content: center;
+
+
+	}
+
+	.itemUno{
+		width: 55%;
+		order: 2;
+
+		
+	}
+
+	.itemDos{
+		width: 55%;
+		order: 5;
+	}
+
+	.itemTres{
+		width: 40%;
+		order: 1;
+	}
+
+	.itemCuatro{
+		width: 40%;
+		order: 4;
+	}
+
+	#HAB{
+	margin-bottom: 40px;
+	}
+
+	.info{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	column-gap: 20px;
+
+
+
+	}	
+	.grid {
+		margin-top: 40px;
+		display:grid;
+		grid-template-columns: repeat(4,1fr);
+		gap:20px;
+
+	}
+
+	.grid-item {
+		box-sizing: border-box;
+		padding: 8px;
+		background-color: rgba(255, 255, 255, 0.6);
+	}
+
+	.grid-item:hover{
+			background-color: white;
+		}
+
+	.grid-item img {
+	width:100%;
+	height: 40%;
+	object-fit: cover;
+
+	}
+
+
+	@media screen and (max-width:1060px){
+			h1{
+			font-size: 48px;
+			line-height: 1;
+			}
+
+			h2{
+			font-size: 28px;
+			}
+
+			h3{
+			font-size: 22px;
+			}
+
+			p{
+			font-size: 18px;
+			}
+
+			body{
+				max-width: 90%;
+				font-size: 18px;
+			}
+
+			.itemUno{
+				width: 100%;
+				order: 1;
+			}
+
+			.itemDos{
+				width: 100%;
+				order: 2;
+			}
+
+			.itemTres{
+				width: 100%;
+				order: 3;
+			}
+
+			.itemCuatro{
+				width: 100%;
+				order: 4;
+			}
+				}
+
+
+	@media screen and (max-width: 850px) {
+		.grid{
+			grid-template-columns: repeat(3,1fr);
+		}
+
+			h3{
+			font-size: 18px;
+			}
+
+			p{
+			font-size: 16px;
+			}
+
+			body{
+				max-width: 90%;
+				font-size: 16px;
+			}
+
+	@media screen and (max-width: 650px) {
+		.grid{
+			grid-template-columns: repeat(2,1fr);
+		}
+
+			h3{
+			font-size: 16px;
+			}
+
+		}
+			p{
+			font-size: 12px;
+			}
+
+			body{
+				max-width: 90%;
+				font-size: 12px;
+			}
+		}
+
+	}
+
+	
+
